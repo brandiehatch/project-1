@@ -1,6 +1,9 @@
 Executive Summary of Project
 
+### Problem Statement
 
+Project hypothesis: students in low-income school districts are not meeting/exceeding the benchmark for SAT Math, Evidence-Based Reading & Writing (ERW), and ACT composite scores. 
+This project aims to explore a possible correlation between the districts with the most Free and Reduced-Priced Meal participation and their scores on the ACT and SAT so that Title I program leaders can determine funding or grant eligibility. These grants and funding sources could help improve ACT and SAT scores of children from low-income families to help ensure that all children meet challenging state academic standards.
 
 ---
 ### Data Dictionary
@@ -30,78 +33,28 @@ Executive Summary of Project
 
 ---
 
-### Rubric
-Your local instructor will evaluate your project (for the most part) using the following criteria.  You should make sure that you consider and/or follow most if not all of the considerations/recommendations outlined below **while** working through your project.
+### Analysis Sumamry
 
-**Scores will be out of 21 points based on the 7 items in the rubric.** <br>
-*3 points per section*<br>
+The correlation analysis, scatterplot, and heatmap all confirmed that there is a negative correlation between the Percent of students eligible for FRPM. As the data shows, the higher the number of students eligible for FRPM, the lower the ACT/SAT tests scores will be.
 
-| Score | Interpretation                                                                                                                  |
-| ----- | ------------------------------------------------------------------------------------------------------------------------------- |
-| **0** | *Project fails to meet the minimum requirements for this item.*                                                                 |
-| **1** | *Project meets the minimum requirements for this item, but falls significantly short of portfolio-ready expectations.*          |
-| **2** | *Project exceeds the minimum requirements for this item, but falls short of portfolio-ready expectations.*                      |
-| **3** | *Project meets or exceeds portfolio-ready expectations; demonstrates a thorough understanding of every outlined consideration.* |
+---
 
-**Project Organization**
-- Are modules imported correctly (using appropriate aliases)?
-- Are data imported/saved using relative paths?
-- Does the README provide a good executive summary of the project?
-- Is markdown formatting used appropriately to structure notebooks?
-- Are there an appropriate amount of comments to support the code?
-- Are files & directories organized correctly?
-- Are there unnecessary files included?
-- Do files and directories have well-structured, appropriate, consistent names?
+### Conclusions and Recommendations
 
-**Clarity of Message**
-- Is the problem statement clearly presented?
-- Does a strong narrative run through the project?
-- Does the student provide appropriate context to connect individual steps back to the overall project?
-- Is it clear how the final recommendations were reached?
-- Are the conclusions/recommendations clearly stated?
+In conclusion, there is a correlation between students who are eligible for Free and Reduced-Price Meals and those students who score low on the ACT or SAT. Additionally, many eligible students do not even take the ACT or SAT. 
 
-**Python Syntax and Control Flow**
-- Is care taken to write human readable code?
-- Is the code syntactically correct (no runtime errors)?
-- Does the code generate desired results (logically correct)?
-- Does the code follows general best practices and style guidelines?
-- Are Pandas functions used appropriately?
-- Does the student demonstrate mastery masking in Pandas?
-- Does the student demonstrate mastery sorting in Pandas?
+I recommend that the ACT and SAT exam provide give free access to the tests for all students in FRPM eligible schools and for all students who are eligible for FRPM in any school. Make the free assessments as accessible as possible for students eligible for FRPM so that it is easy to take the assessments.
 
-**Data Cleaning and EDA**
-- Does the student fix data entry issues?
-- Are data appropriately labeled?
-- Are data appropriately typed?
-- Are datasets combined correctly?
-- Are appropriate summary statistics provided?
-- Are steps taken during data cleaning and EDA framed appropriately?
+Additionally, I recommend that the State of California, the Federal Government, and other funding providers continue to provide financial assistance to the schools and districts with the most participants in the Free or Reduced-Priced Meal (FRPM) program. This would include funding to provide study resources and practice test opportunities.
 
-**Visualizations**
-- Are the requested visualizations provided?
-- Do plots accurately demonstrate valid relationships?
-- Are plots labeled properly?
-- Plots interpreted appropriately?
-- Are plots formatted and scaled appropriately for inclusion in a notebook-based technical report?
+---
 
-**Research and Conceptual Understanding**
-- Were useful insights gathered from outside sources?
-- Are sources clearly identified?
-- Does the student provide appropriate interpretation with regards to descriptive and inferential statistics?
+### Sources
 
-**Presentation**
-- Is the problem statement clearly presented?
-- Does a strong narrative run through the presentation building toward a final conclusion?
-- Are the conclusions/recommendations clearly stated?
-- Is the level of technicality appropriate for the intended audience?
-- Is the student substantially over or under time?
-- Does the student appropriately pace their presentation?
-- Does the student deliver their message with clarity and volume?
-- Are appropriate visualizations generated for the intended audience?
-- Are visualizations necessary and useful for supporting conclusions/explaining findings?
-
-In order to pass the project, students must earn a minimum score of 1 for each category.
-- Earning below a 1 in one or more of the above categories would result in a failing project.
-- While a minimum of 1 in each category is the required threshold for graduation, students should aim to earn at least an average of 1.5 across each category. An average score below 1.5, while it may be passing, means students may want to solicit specific feedback in order to significantly improve the project before showcasing it as part of a portfolio or the job search.
+* Income Eligibility Guidelines can be found from the Food and Nutrition Service Agency of the United States of America: https://www.federalregister.gov/documents/2018/05/08/2018-09679/child-nutrition-programs-income-eligibility-guidelines
+* Free or Reduced-Price Meal School-level Data and [Data Dictionary](https://www.cde.ca.gov/ds/ad/filesspfrpm.asp) can be found on the California Department of Education website: https://www.cde.ca.gov/ds/ad/filessp.asp 
+* U.S. Department of Education Title I, Part A website: https://www2.ed.gov/programs/titleiparta/index.html 
+* National Center for Education Statistics: https://nces.ed.gov/blogs/nces/post/understanding-school-lunch-eligibility-in-the-common-core-of-data 
+* No Kid Hungry: Center for Best Practices: https://bestpractices.nokidhungry.org/ 
 
 
